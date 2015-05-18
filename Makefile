@@ -2,3 +2,8 @@
 
 run:
 	node app.js
+
+install:
+	npm install
+
+.PHONY: install

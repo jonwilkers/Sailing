@@ -1,0 +1,15 @@
+#standard exensions we don't want
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+#vim stuff
+*.swp
+
+#use npm
+node_modules

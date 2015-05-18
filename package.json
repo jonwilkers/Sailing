@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "pirate-bounty",
+  "version": "1.0.0",
+  "description": "#Overview A FTL clone set in pirate times. For game play see the [readme.txt](https://github.com/jonwilkers/Sailing/blob/master/ReadMe.txt).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonwilkers/Sailing.git"
+  },
+  "author": "Jon Wilkerson",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/jonwilkers/Sailing/issues"
+  },
+  "homepage": "https://github.com/jonwilkers/Sailing",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "csurf": "^1.8.2",
+    "express": "^4.12.4",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.11.2"
+  }
+}

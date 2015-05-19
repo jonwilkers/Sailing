@@ -16,4 +16,10 @@ module.exports = function (app) {
     '/',
     signin.renderSignin.bind(signin)
   );
+
+  app.get(
+	'/jon',
+	function(request,response,nextHandler){
+	    reponse.send('hello world'); 
+	})
 };

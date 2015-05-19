@@ -18,8 +18,9 @@ module.exports = function (app) {
   );
 
   app.get(
-	'/jon',
-	function(request,response,nextHandler){
-	    reponse.send('hello world'); 
-	})
+    '/jon',
+    function (request, response, nextHandler) {
+      response.send('hello world'); //i had a typo here
+    }
+  );
 };

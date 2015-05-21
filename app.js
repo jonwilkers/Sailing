@@ -39,6 +39,9 @@ app.engine('.hbs', exphbs({
 }));
 app.set('view engine', '.hbs');
 
+//set the static
+app.use(express.static('public'));
+
 //set up other express stuff
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended : true}));

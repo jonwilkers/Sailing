@@ -22,7 +22,8 @@ function Signin(opts) {
  */
 Signin.prototype.renderSignin = function (req, res) {
   res.render('signin', {
-    'csrf' : req.csrfToken()
+    'csrf' : req.csrfToken(),
+    'jquery' : true
   });
 };
 

@@ -59,4 +59,5 @@ process.on('SIGINT', function () {
   log.info('Avast me maties! There be a SIGINT abouts. Set the anchor!');
   server.close();
   log.info('Anchors caught and all ashore.');
+  process.exit(0);
 });
